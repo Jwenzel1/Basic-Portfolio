@@ -122,4 +122,8 @@ footer{
   box-sizing: border-box;
   border-top: 9px solid #4aaaa5;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e0e0e0;
 }
