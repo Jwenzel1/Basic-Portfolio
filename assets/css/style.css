@@ -53,11 +53,41 @@ header nav ul li:not(:last-child){
   border-right: 1px solid #ccc;
 }
 
+form{
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+form:first-child{
+  margin-top: 20px;
+}
+
+input{
+  height: 25px;
+  font-size: 1.3rem;
+}
+
+input, textarea{
+  width: 100%;
+  margin: 10px 0px 20px 0px;
+}
+
+textarea{
+  height: 200px;
+}
+
+.submit{
+  background-color: #4aaaa5;
+  padding: 20px;
+  display: inline-block;
+  color: white;
+}
+
 .content{
+  justify-content: space-between;
   width: 980px;
   margin: 30px auto;
   display: flex;
-  justify-content: space-between;
   align-items: flex-start;
   flex: 1 0 auto;
 }
