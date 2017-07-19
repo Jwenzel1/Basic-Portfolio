@@ -1,0 +1,113 @@
+body{
+  color: #777777;
+  background-image: url("../images/concrete_seamless.png");
+}
+
+header{
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 5%;
+  box-sizing: border-box;
+  font-family: Helvetica;
+  background-color: #fff;
+}
+
+.name{
+  background-color: #4aaaa5;
+  padding: 20px;
+}
+
+h1{
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+
+h2{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #4aaaa5;
+}
+
+nav{
+  margin: auto 0px;
+  width: 200px;
+}
+
+header nav ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav ul li:not(:last-child){
+  padding-right: 10px;
+  border-right: 1px solid #ccc;
+}
+
+.content{
+  width: 980px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.main{
+  width: 650px;
+  padding: 20px;
+  border: 1px solid black;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.title{
+  height: 60px;
+  border-bottom: 2px solid #777777;
+  margin-bottom: 10px;
+}
+
+.title h1{
+  color: #4aaaa5;
+  padding: 10px 0px;
+}
+
+.aboutMe img{
+  width: 150px;
+  height: 150px;
+  float: left;
+  margin-right: 10px;
+}
+
+.aboutMe{
+  line-height: 1.4rem;
+}
+
+.connectWithMe{
+  width: 270px;
+  min-height: 170px;
+  background-color: white;
+  border: 1px solid black;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+.connectTitle{
+  height: 50px;
+  border-bottom: 2px solid #777777;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.connectLocations{
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0px;
+}
+
+.connectLocations img{
+  width: 60px;
+  height: 60px;
+}
